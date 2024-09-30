@@ -25,10 +25,99 @@ nav {
     margin : 1rem;
 }
 /* Header nav end */
-
+/* Hero start */
 .main {
     background-color:darkgray;
 }
-.banner {
+.herocontainer {
+    display:flex;
+    background-color: darkgray;   
+}
+.heroimg img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+.heroinform {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 1.5rem;
+    align-items:start;
+}
+.heroinform a.Starthere {
+    background-color:#505757 ;
+    color: white;
+    width: 27rem;
+    height: 2.5rem;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1rem; 
+    font-size: 1.2rem;  
+}
+.heroinform p {
+    font-size: 1.3rem;
+}
+/* hero end */
+/* information start */
+.banner img {
+    width : 60%;
+}
+.information {
+    display:flex;
+    background-color: lightgray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid red */
+}
+.information .practice img {
+    padding: 1rem;
+}
+.information .practice {
+    padding :1rem;
+    ;
+} 
+.practice {
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 60%;
+}
+.detail {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
     
 }
+.detail .item1 {
+    /* border: 1px solid red; */
+    display:flex;
+    align-items: center;
+}
+.detail .item1 .itemc {
+    padding-left: 1rem;
+}
+.detail .item2 {
+    display:flex;
+    align-items: center;
+}
+.detail .item2 .itemc2 {
+    padding-left: 1rem;
+}
+.detail .item3 {
+    display:flex;
+    align-items: center;
+}
+.detail .item3 .itemc3 {
+    padding-left: 1rem;
+}
+.readmore-btn {
+    text-decoration: none;
+}
+
+
+/* information end */
