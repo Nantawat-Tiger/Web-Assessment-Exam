@@ -1,0 +1,34 @@
+
+
+/* Header nav start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+   
+}
+.Logoinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Menu {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.Menu li a  {
+    text-decoration: none;
+    margin : 1rem;
+}
+/* Header nav end */
+
+.main {
+    background-color:darkgray;
+}
+.banner {
+    
+}
