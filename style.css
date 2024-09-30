@@ -6,6 +6,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 4rem;
+    /* border: 1 px solid red; */
    
 }
 .Logoinfo {
@@ -26,36 +27,45 @@ nav {
 }
 /* Header nav end */
 /* Hero start */
-.main {
-    background-color:darkgray;
-}
+
 .herocontainer {
     display:flex;
-    background-color: darkgray;   
+    width :100%;
+      
+}
+.hero {
+    /* border: 1px solid red; */
+    width : 100%;
+    background-color: darkgrey;
 }
 .heroimg img {
-    margin-top: 2rem;
+    /* margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-right: 1.5rem; */
+    width: 100%;
 
 }
 .heroinform {
     display:flex;
     flex-direction: column;
-    justify-content:center;
-    margin: 1.5rem;
-    align-items:start;
+    justify-content: center;
+    margin: 2rem;
+    width: 40%;
+   
 }
 .heroinform a.Starthere {
     background-color:#505757 ;
     color: white;
-    width: 27rem;
     height: 2.5rem;
     text-decoration: none;
-    text-align: center;
+    
     padding-top: 1rem; 
     font-size: 1.2rem;  
+    width : 5rem;
+    display:flex;
+    justify-content: center;
+
 }
 .heroinform p {
     font-size: 1.3rem;
@@ -74,10 +84,11 @@ nav {
 }
 .information .practice img {
     padding: 1rem;
+    width :100%
 }
 .information .practice {
     padding :1rem;
-    ;
+    
 } 
 .practice {
     
@@ -115,9 +126,127 @@ nav {
 .detail .item3 .itemc3 {
     padding-left: 1rem;
 }
-.readmore-btn {
+.Readmore-btn {
     text-decoration: none;
+}
+/* information end */
+
+/* Course start */
+.container {
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap : 2rem;
+   background-color:lightgray;
+}
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-/* information end */
+/* course end */
+
+/* thesis start */
+.thesis {
+    display:flex;
+    
+}
+.thesis .thesisL {
+    width: 60%;
+    /* border: 1px solid red; */
+}
+
+ .thesisR  {
+    display:flex;
+    flex-direction: column;
+}
+.fisma {
+    display:flex;
+    flex-direction: row;
+}
+.nowandthen {
+    display:flex;
+    
+}
+
+/* thesis end */
+
+/* footer start */
+.footN {
+    display:flex;
+    
+}
+
+/* footer end */
+
+@media screen and (max-width : 480px) 
+  {
+    .Menu li a.Oncampus {
+        content :url(images/ic-on-campus.svg);
+    }
+    .Menu li a.Online {
+        content :url(images/ic-online.svg);
+    }
+    .Menu li a.orcompanies {
+        content :url(images/ic-online.svg);
+    }
+    .Menu li a.Signin {
+        content :url(images/ic-login.svg)
+    }
+    .herocontainer {
+        display:flex;
+        flex-direction: column;
+        width : 100%;
+    }
+    .hero {
+        width : 100%;
+    }
+    .heroinform {
+        width :100%;
+       
+    }
+    .heroinform a.Starthere {
+        width :90%
+    }
+    .detail {
+        width : 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .practice {
+        display :none;
+    } 
+    
+    .container-course p, .container-course img {
+        display:none;
+
+    }
+    .container-course h4 {
+        display:none;
+    }
+    .container-course h1 {
+        display:block;
+    }
+    .container-course {
+        display :flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .thesisL {
+        width :100%;
+        /* border : 1px solid red; */
+    }
+    .thesisR {
+        display: none;
+    }
+    .thesisL h1 , .thesisL p {
+        display: none;
+
+    }
+    .footN ul {
+        display: none;
+    }
+    }
+    
